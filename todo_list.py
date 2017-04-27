@@ -39,7 +39,7 @@ def display_main_menu(my_list):
         if user_answer == "A":
             add_to_list(my_list)
         elif user_answer == "B":
-            print view_list(my_list)
+            view_list(my_list)
         else:
 
             break
