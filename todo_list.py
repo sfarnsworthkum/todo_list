@@ -33,7 +33,14 @@ def display_main_menu(my_list):
 
     while True:
         # Collect input and include your if/elif/else statements here.
-        break
+        user_answer = raw_input(user_options)
+        if user_answer == "A":
+            add_to_list(my_list)
+        elif user_answer == "B":
+            print view_list(my_list)
+        else:
+
+            break
 
 #-------------------------------------------------
 
